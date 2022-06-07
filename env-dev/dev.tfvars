@@ -1,0 +1,2 @@
+DEFAULT_VPC_ID = "vpc-070ce80795061d7b6"
+ENV = "dev"
