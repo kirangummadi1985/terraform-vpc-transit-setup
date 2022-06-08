@@ -10,3 +10,6 @@ output "DEFAULT_VPC_RT" {
   value = var.DEFAULT_VPC_RT
 }
 
+output "DEFAULT_VPC_CIDR" {
+  value = data.aws_vpc.default.cidr_block
+}
